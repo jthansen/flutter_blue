@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9a2a7b0-be08-4e0c-ac22-29d107d17eef" name="Default" comment="Fixed possible NPE [Android].">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutterblue/FlutterBluePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutterblue/FlutterBluePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/flutter_blue.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/flutter_blue.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="HT7190200330" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/src/flutter_blue.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="522">
+              <caret line="164" column="5" lean-forward="true" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -42,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="203">
+              <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
               <folding>
                 <element signature="e#0#9013#0" expanded="true" />
               </folding>
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutterblue/FlutterBluePlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="879" column="17" lean-forward="true" selection-start-line="879" selection-start-column="17" selection-end-line="879" selection-end-column="17" />
+            <state relative-caret-position="263">
+              <caret line="880" column="75" lean-forward="true" selection-start-line="880" selection-start-column="75" selection-end-line="880" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -69,7 +67,6 @@
       <find>getConnectedDevices</find>
       <find>rapidreboot</find>
       <find>discover</find>
-      <find>print</find>
       <find>getConnect</find>
       <find>new</find>
       <find>const</find>
@@ -88,6 +85,7 @@
       <find>_value.value</find>
       <find>onCharacteristicWrite</find>
       <find>log</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>OnCharacteristicChanged</replace>
@@ -130,14 +128,14 @@
         <option value="$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutterblue/ProtoMaker.java" />
         <option value="$PROJECT_DIR$/ios/Classes/FlutterBluePlugin.m" />
         <option value="$PROJECT_DIR$/protos/flutterblue.proto" />
-        <option value="$PROJECT_DIR$/lib/src/flutter_blue.dart" />
         <option value="$PROJECT_DIR$/lib/src/bluetooth_device.dart" />
-        <option value="$PROJECT_DIR$/example/lib/main.dart" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/src/bluetooth_descriptor.dart" />
         <option value="$PROJECT_DIR$/lib/src/bluetooth_characteristic.dart" />
         <option value="$PROJECT_DIR$/example/lib/widgets.dart" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutterblue/FlutterBluePlugin.java" />
+        <option value="$PROJECT_DIR$/example/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/src/flutter_blue.dart" />
       </list>
     </option>
   </component>
@@ -699,23 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/flutter_blue.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="e#0#9013#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/bluetooth_device.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -725,8 +706,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutterblue/FlutterBluePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="879" column="17" lean-forward="true" selection-start-line="879" selection-start-column="17" selection-end-line="879" selection-end-column="17" />
+        <state relative-caret-position="263">
+          <caret line="880" column="75" lean-forward="true" selection-start-line="880" selection-start-column="75" selection-end-line="880" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
+          <folding>
+            <element signature="e#0#9013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/flutter_blue.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="164" column="5" lean-forward="true" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
         </state>
       </provider>
     </entry>

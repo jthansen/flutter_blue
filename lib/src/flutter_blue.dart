@@ -161,7 +161,7 @@ class FlutterBlue {
 
   void _log(LogLevel level, String message) {
     if (level.index <= _logLevel.index) {
-      print(message);
+//      print(message);
     }
   }
 }
