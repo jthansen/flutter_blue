@@ -225,8 +225,13 @@ public class FlutterBluePlugin implements MethodCallHandler, RequestPermissionsR
         case "disconnect": {
             String deviceId = (String) call.arguments;
             BluetoothGatt gattServer = mGattServers.remove(deviceId);
+            BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(deviceId);
+            int state = mBluetoothManager.getConnectionState(device, BluetoothProfile.GATT);
             if (gattServer != null) {
                 gattServer.disconnect();
+                if(state == BluetoothProfile.STATE_DISCONNECTED) {
+                    gattServer.close();
+                }
             }
             result.success(null);
             break;
